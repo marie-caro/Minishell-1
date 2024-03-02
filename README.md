@@ -1,4 +1,4 @@
-# Minishell-1
+# Minishell1 {EPITECH project}
 
 # How to run the project
 ```
