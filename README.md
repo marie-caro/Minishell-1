@@ -7,15 +7,25 @@ $ ./mysh
 
 # Description
 We had to program a UNIX command interpreter based on TCSH.
+
 -> The interpreter was expected to display a prompt and then wait for us to write a command line, which was to be validated by a newline.
+
 -> The prompt was to be displayed again only after the command execution.
+
 -> Only basic command lines are expected to be executed; no pipes, redirections or any other advanced features.
+
 -> We had to recode some built-ins:
+
     * cd
+    
     * env
+    
     * setenv
+    
     * unsetenv
+   
     * exit
+
    for the rest of the commands, we had to find them with the PATH variable (from the env) -> for example finding the 'ls' executable in /usr/bin/ls
    
 # Preview
