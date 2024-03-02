@@ -42,8 +42,8 @@ $ ./file_without_permissions
 -> 'You should output an error message when trying to execute a file that doesn't have the rights.
 
 ```
-$ ./file_with_permissions
-./permissions: Exec format error. Wrong Architecture.
+$ ./with_permissions
+./with_permissions: Exec format error. Wrong Architecture.
 ```
 -> When executing a something that isn't compatible with the architecture of your pc (man errno).
 
